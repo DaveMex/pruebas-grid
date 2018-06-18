@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galería de imágenes.</title>
+    <link href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css" rel="stylesheet">
+    <script src="js/bpgdec8.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Mi galería de imágenes.</h1>
+        <ul id="lightgallery" class="galeria">
+
+            <li data-src="img/logotipos/logo-Artboard-1-100.jpg" data-sub-html="<h4>Logo Ocelote</h4><p>Texto explicativo aquí.</p>">
+                <a href="">
+                    <img src="img/logotipos/logo-Artboard-1-100.bpg" width="150" alt="">
+                </a>
+            </li>
+
+            <a href="img/bowie.svg" data-sub-html="<h4>Logo Copili</h4><p>Texto explicativo aquí de la imagen.</p>">
+                <img src="img/logotipos/logo-Artboard-2-100.bpg" alt="" width="150">
+            </a>
+
+            <li data-sub-html="<h4>Logo Mentoring Dojo</h4><p>Texto explicativo aquí.</p>">
+                <a href="img/logotipos/logo-Artboard-3-100.bpg">
+                    <img src="img/logotipos/logo-Artboard-3-100.bpg" alt="" width="150">
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script>
+            lightGallery(document.getElementById('lightgallery'));
+    </script>
+    
+</body>
+</html>
